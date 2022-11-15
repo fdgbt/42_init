@@ -75,7 +75,7 @@ Unfortunately only French is available for now, the content is organised as belo
   14 Quel est le fichier contenant les entrées locales DNS   
   15 Faites pointer intra.42.fr sur l’adresse suivante 46.19.122.85   
 
-## System  
+### System  
   01 Fichier où se trouve la version installée de Debian   
   02 Commande pour connaître le nom du système    
   XX Commande pour renommer le système    
@@ -105,7 +105,7 @@ Unfortunately only French is available for now, the content is organised as belo
   XX Expliquez comment se connecter en tant que ce nouvelle utilisateur. (En session graphique et en session ssh)    
   XX Commande qui permet de lister tous les packages INSTALLÉS sur la machine    
 
-## Scripts
+### Scripts
   01 Réaliser un script qui affiche seulement le login, le UID et le Path de chaques entrée du fichier /etc/passwd   
   XX Réaliser un script qui permet de supprimer un user LOGUÉ sur la machine   
   XX Jamais 203  
@@ -116,9 +116,9 @@ Unfortunately only French is available for now, the content is organised as belo
   XX Start a new 42 project    
   XX Script maison pour tester son Lem-in    
 
-## Annexes
+### Annexes
 
-## Conclusion
+### Conclusion
 
 # 2019 Update
 There is a new version of the subject and some adjustment has been made with the objectives (02 03 etc).  
