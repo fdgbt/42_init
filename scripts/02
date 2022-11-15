@@ -1,0 +1,10 @@
+#!/bin/bash
+sudo apt-get update >> /var/log/update_script.log
+sudo apt-get upgrade -y >> /var/log/update_script.log
+# to create the scheduled task :
+# it is recommanded to edit directly with sudo crontab -e
+# the following method will make loose all previous task
+# echo "0 4 * * 1 /home/fdagbert/Documents/Init/scripts/02" > new_crontab
+# sudo crontab new_crontab
+# rm new_crontab
+# sudo crontab -l

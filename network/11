@@ -1,0 +1,5 @@
+#!/bin/bash
+echo -e "10.11.254.254 is our local network.\n"
+echo -e "The link between the l.n. and outside world is made by a device called NAT, for Network Address Translation.\n"
+echo -e "Following the traceroute command, the line 2 represents the device used after the local network.\n"
+echo -e "In our case, the name device is \"nat-1\" and its IP Address is (10.60.1.11).\n"

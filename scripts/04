@@ -1,0 +1,15 @@
+#!/bin/bash
+CTAB='/var/spool/cron/crontabs/root'
+CTAB_LAST='/etc/.crontab_last'
+if [ ! -e $CTAB_LAST ]; then
+	sudo cp $CTAB $CTAB_LAST
+fi
+MD5_CTAB=`sudo md5sum $CTAB | cut -d' ' -f1`
+MD5_LAST=`sudo md5sum $CTAB_LAST | cut -d' ' -f1`
+if [ "$MD5_CTAB" != "$MD5_LAST" ]; then
+	sudo cat $CTAB | mail -s "Crontab has been modified" root@localhost
+	sudo cp $CTAB $CTAB_LAST
+fi
+# to create the scheduled task:
+# use "sudo crontab -e" then add the following line:
+# 0 0 * * * /home/fdagbert/Documents/Init/scripts/04

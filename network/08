@@ -1,0 +1,3 @@
+#!/bin/bash
+whois slash16.org | grep "Server"
+echo -e "\nAWSDNS -> AWS DNS -> \"Amazon Web Services\" ou encore \"Amazon Route 53\""
