@@ -4,7 +4,7 @@ An introduction to Network and Systems Administration (DevOps)
 # Special Doc
 
 A unique document has been created for this project.  
-In this document you can find the subject and a reminder for all notions learned, but also explanations for each script.  
+In this rare document you can find the subject and a reminder for all notions learned, but also explanations for each script.  
 It has been designed to be very complete in terms of informations, and represents dozens of hours of research and writing.  
 It takes the form of a tutorial of 75 pages, allowing you to be guided step by step and to complete the project from A to Z.  
 It can be shared individually upon request.  
