@@ -54,31 +54,31 @@ Unfortunately only French is available for now, the content is organised as belo
   
 ### Network
   01 Afficher juste les noms de la liste des interfaces réseaux  
-  XX Afficher les caractéristiques d’une interface réseau spécifique (ex: Ethernet)  
-  XX Afficher juste l’adresse IP de l’interface Ethernet :  
-  02a Afficher l’adresse de Broadcast de l’interface Ethernet  
-  02b Afficher toutes les adresses IP qui font partie du même sous-réseau  
-  03 Afficher juste l’adresse MAC de la carte Wi-Fi 
-  04 Afficher la gateway par défaut dans la table de routage   
-  05 Afficher l’IP du serveur DNS qui répond sur le domaine suivant : slash16.org   
+  02 Afficher les caractéristiques d’une interface réseau spécifique (ex: Ethernet)  
+  XX Afficher juste l’adresse IP de l’interface Ethernet  
+  XX Afficher l’adresse de Broadcast de l’interface Ethernet  
+  XX Afficher toutes les adresses IP qui font partie du même sous-réseau  
+  03 Afficher juste l’adresse MAC de la carte Wi-Fi  
+  04 Afficher la gateway par défaut dans la table de routage  
+  05 Afficher l’IP du serveur DNS qui répond sur le domaine suivant : slash16.org  
   06 Récupérer le path complet du fichier dans lequel est écrit l’adresse IP du serveur DNS que l’on utilise  
   07 Interroger un serveur DNS externe sur le nom de domaine slash16.org (ex : google 8.8.8.8)  
   08 Trouver chez quel hébergeur est le site de Slash16   
   09 Trouver l’IP Publique de 42.fr   
   10 Afficher les différents appareils réseaux entre votre poste et le domaine slash16.org   
   11 Trouvez grâce au résultat de la commande précédente le nom et l’IP du matériel qui fait le lien entre vous (réseau local) et l’extérieur  
-  XX Vérifiez que le serveur avec l’adresse IP 10.51.1.253 est touchable depuis votre poste   
+  12 Vérifiez que le serveur avec l’adresse IP 10.51.1.253 est touchable depuis votre poste   
   XX Déterminer le type de serveur 10.51.1.253   
-  12 Trouvez l’IP qui vous a été assignée par le serveur dhcp   
-  XX Vérifiez grâce au Reverse DNS le nom du serveur correspondant à l’IP 10.51.1.81   
-  13 Grâce à la question précédente et au reverse DNS, retrouvez le nom de votre host   
+  XX Trouvez l’IP qui vous a été assignée par le serveur dhcp   
+  13 Vérifiez grâce au Reverse DNS le nom du serveur correspondant à l’IP 10.51.1.81   
+  XX Grâce à la question précédente et au reverse DNS, retrouvez le nom de votre host   
   14 Quel est le fichier contenant les entrées locales DNS   
   15 Faites pointer intra.42.fr sur l’adresse suivante 46.19.122.85   
 
 ## System  
   01 Fichier où se trouve la version installée de Debian   
-  XX Commande pour connaître le nom du système    
-  02 Commande pour renommer le système    
+  02 Commande pour connaître le nom du système    
+  XX Commande pour renommer le système    
   03 Fichier pour renommer le système de façon permanente    
   04 Commande pour savoir depuis combien de temps le système à été démarré    
   05 Commande qui détermine l’état du service SSH    
@@ -93,26 +93,26 @@ Unfortunately only French is available for now, the content is organised as belo
   14 Lancez en background la commande tail -f /var/log/syslog    
   15 Commande qui permet de tuer le processus de la commande en background    
   16 Service qui permet de lancer des tâches à horaires régulières    
-  XX Commande qui donne la liste des règles de pare-feu    
-  XX Autoriser uniquement les IPs provenant de 10.0.0.0/8 (entrante) à se connecter au système    
-  XX Interdire le reste des IP    
-  17 Commande qui, en parallèle de la session graphique, permet de se connecter en ssh sur la machine     
-  18 Commande qui permet d’arrêter le service ssh    
-  19 Lister les services qui se lancent automatiquement lorsque la machine boot et indiquer le nom donné à ce type de service    
-  20 Lister tous les utilisateurs existants sur la machine    
-  21 Lister tous les utilisateurs réels de la machine    
-  22 Commande qui permet d’ajouter un utilisateur local supplémentaire    
-  23 Expliquez comment se connecter en tant que ce nouvelle utilisateur. (En session graphique et en session ssh)    
-  24 Commande qui permet de lister tous les packages INSTALLÉS sur la machine    
+  17 Commande qui donne la liste des règles de pare-feu    
+  18 Autoriser uniquement les IPs provenant de 10.0.0.0/8 (entrante) à se connecter au système    
+  19 Interdire le reste des IP    
+  XX Commande qui, en parallèle de la session graphique, permet de se connecter en ssh sur la machine     
+  XX Commande qui permet d’arrêter le service ssh    
+  XX Lister les services qui se lancent automatiquement lorsque la machine boot et indiquer le nom donné à ce type de service    
+  XX Lister tous les utilisateurs existants sur la machine    
+  XX Lister tous les utilisateurs réels de la machine    
+  XX Commande qui permet d’ajouter un utilisateur local supplémentaire    
+  XX Expliquez comment se connecter en tant que ce nouvelle utilisateur. (En session graphique et en session ssh)    
+  XX Commande qui permet de lister tous les packages INSTALLÉS sur la machine    
 
 ## Scripts
   01 Réaliser un script qui affiche seulement le login, le UID et le Path de chaques entrée du fichier /etc/passwd   
-  02 Réaliser un script qui permet de supprimer un user LOGUÉ sur la machine   
-  03 Jamais 203   
-  XX Réaliser un script qui affiche la liste des fichiers triés par taille présents dans le dossier passé en argument    
-  XX Réaliser un script qui met à jour l’ensemble des sources de package, puis de vos packages et qui log l’ensemble dans un fichier nommé /var/log/update_script.log. Créer une tâche planifiée pour ce script une fois par semaine à 4h00 du matin 
-  XX Réaliser un script qui permet de surveiller les modifications du fichier /etc/crontab et envoie un mail à ROOT si celui-ci a été modifié. Créez une tâche planifiée pour ce script tous les jours à minuit   
-  XX Réaliser un script qui affiche 42    
+  XX Réaliser un script qui permet de supprimer un user LOGUÉ sur la machine   
+  XX Jamais 203  
+  02 Réaliser un script qui met à jour l’ensemble des sources de package, puis de vos packages et qui log l’ensemble dans un fichier nommé /var/log/update_script.log. Créer une tâche planifiée pour ce script une fois par semaine à 4h00 du matin   
+  03 Réaliser un script qui affiche la liste des fichiers triés par taille présents dans le dossier passé en argument  
+  04 Réaliser un script qui permet de surveiller les modifications du fichier /etc/crontab et envoie un mail à ROOT si celui-ci a été modifié. Créez une tâche planifiée pour ce script tous les jours à minuit   
+  05 Réaliser un script qui affiche 42    
   XX Start a new 42 project    
   XX Script maison pour tester son Lem-in    
 
@@ -120,4 +120,7 @@ Unfortunately only French is available for now, the content is organised as belo
 
 ## Conclusion
 
-The document in French can be shared individually upon request.
+# 2019 Update
+There is a new version of the subject and some adjustment has been made with the objectives (02 03 etc).  
+Objectives marqued as 'XX' are new and are also explained completely in the document.  
+The updated document, including old and new objectives, can be shared individually upon request.
