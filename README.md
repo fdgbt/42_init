@@ -1,8 +1,11 @@
 # 42_init
 An introduction to Network and Systems Administration (DevOps)
 
-# Special Doc
+# Expected Result
+All the commands used in this project are uploaded in this repository.
+They are sorted in 3 domains: Network, System, Scripts.
 
+# Special Doc
 A unique document has been created for this project.  
 In this rare document you can find the subject and a reminder for all notions learned, but also explanations for each script.  
 It has been designed to be very complete in terms of informations, and represents dozens of hours of research and writing.  
