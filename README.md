@@ -2,7 +2,7 @@
 An introduction to Network and Systems Administration (DevOps)
 
 # Expected Result
-All the commands used in this project are uploaded in this repository.
+All the commands used in this project are uploaded in this repository.  
 They are sorted in 3 domains: Network, System, Scripts.
 
 # Special Doc
