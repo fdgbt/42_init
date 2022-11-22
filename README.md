@@ -128,5 +128,6 @@ Objectives marqued as 'XX' are from new subject and also explained completely in
 The updated document, including old and new objectives, is available in French and can be shared upon request.
 
 # Keywords
-Basics of Shell  
+System & Network Administration  
+Unix  
 DevOps
