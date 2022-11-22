@@ -15,8 +15,6 @@ It can be shared upon request.
 I would like to thanks a lot the 42 peers (and friends) who helped me to produce this document: Hugo D., Julia A. and Julien B.  
 Unfortunately only French is available for now, the content is organised as below:
 
-## Table des matières
-
 ### Remerciements
 ### Versions du document
 ### Table des matières
