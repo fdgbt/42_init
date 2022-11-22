@@ -108,16 +108,15 @@ Unfortunately only French is available for now, the content is organised as belo
 
 ### Scripts
   01 Réaliser un script qui affiche seulement le login, le UID et le Path de chaques entrée du fichier /etc/passwd   
-  XX Réaliser un script qui permet de supprimer un user LOGUÉ sur la machine   
-  XX Jamais 203  
   02 Réaliser un script qui met à jour l’ensemble des sources de package, puis de vos packages et qui log l’ensemble dans un fichier nommé /var/log/update_script.log  
   Créer une tâche planifiée pour ce script une fois par semaine à 4h00 du matin  
   03 Réaliser un script qui affiche la liste des fichiers triés par taille présents dans le dossier passé en argument  
   04 Réaliser un script qui permet de surveiller les modifications du fichier /etc/crontab et envoie un mail à ROOT si celui-ci a été modifié  
   Créez une tâche planifiée pour ce script tous les jours à minuit   
-  05 Réaliser un script qui affiche 42    
-  XX Start a new 42 project    
-  XX Script maison pour tester son Lem-in    
+  05 Réaliser un script qui affiche 42  
+  XX Réaliser un script qui permet de supprimer un user LOGUÉ sur la machine  
+  XX Jamais 203  
+  XX Start a new 42 project  
 
 ### Annexes
 
