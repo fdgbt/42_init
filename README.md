@@ -126,3 +126,7 @@ Unfortunately only French is available for now, the content is organised as belo
 There is a new version of the subject and some adjustment has been made with the objectives (02 03 etc).  
 Objectives marqued as 'XX' are from new subject and also explained completely in the document.  
 The updated document, including old and new objectives, is available in French and can be shared upon request.
+
+# Keywords
+Basics of Shell  
+DevOps
