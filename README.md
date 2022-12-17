@@ -1,5 +1,5 @@
 # 42_init
-An introduction to Network and Systems Administration (DevOps)
+An introduction to Networks and Systems Administration (DevOps)
 
 # Expected Result
 All the commands used in this project are uploaded in this repository.  
