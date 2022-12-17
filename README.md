@@ -1,5 +1,5 @@
 # 42_init
-An introduction to Networks and Systems Administration (DevOps)
+An introduction to Networks and Systems Administration  
 
 # Expected Result
 All the commands used in this project are uploaded in this repository.  
@@ -54,7 +54,7 @@ Unfortunately only French is available for now, the content is organised as belo
   VM storage  
   
 ### Network
-  01 Get the list of the network interfaces of the machine without displaying any detail for these interfaces. Only the list of names.  
+  01 Get the list of the network interfaces of the machine without displaying any detail for these interfaces (only the list of names)  
   02 Identify the IP address of the Ethernet interface  
   XX Display only the IP address of the Ethernet interface  
   XX Display the Broadcast address of the Ethernet interface  
@@ -77,45 +77,44 @@ Unfortunately only French is available for now, the content is organised as belo
   15 Make the 46.19.122.85 address reroute to intra.42.fr  
 
 ### System  
-  01 Fichier où se trouve la version installée de Debian   
-  02 Commande pour connaître le nom du système    
-  XX Commande pour renommer le système    
-  03 Fichier pour renommer le système de façon permanente    
-  04 Commande pour savoir depuis combien de temps le système à été démarré    
-  05 Commande qui détermine l’état du service SSH    
-  06 Commande pour redémarrer le service SSH    
-  07 Déterminer le PID du service SSHD    
-  08 Fichier qui contient les clés RSA des machines autorisées à se connecter via SSH     
-  09 Commande pour savoir quelles personnes sont connectées sur le système    
-  10 Commande qui permet de lister les tables de partitions des disques    
-  11 Commande permet d’afficher l’espace disponible et utilisé sur le système d’une manière humainement compréhensible    
-  12 Déterminez la taille exacte de chaque dossier de /var d’une manière humainement compréhensible suivi du chemin de celui-ci    
-  13 Commande qui permet, en temps réel, de trouver les processus en cours d’exécution   
-  14 Lancez en background la commande tail -f /var/log/syslog    
-  15 Commande qui permet de tuer le processus de la commande en background    
-  16 Service qui permet de lancer des tâches à horaires régulières    
-  17 Commande qui donne la liste des règles de pare-feu    
-  18 Autoriser uniquement les IPs provenant de 10.0.0.0/8 (entrante) à se connecter au système    
-  19 Interdire le reste des IP    
-  XX Commande qui, en parallèle de la session graphique, permet de se connecter en ssh sur la machine     
-  XX Commande qui permet d’arrêter le service ssh    
-  XX Lister les services qui se lancent automatiquement lorsque la machine boot et indiquer le nom donné à ce type de service    
-  XX Lister tous les utilisateurs existants sur la machine    
-  XX Lister tous les utilisateurs réels de la machine    
-  XX Commande qui permet d’ajouter un utilisateur local supplémentaire    
-  XX Expliquez comment se connecter en tant que ce nouvelle utilisateur. (En session graphique et en session ssh)    
-  XX Commande qui permet de lister tous les packages INSTALLÉS sur la machine    
+  01 In what file can you find the installed version of your Debian  
+  02 What command can you use to rename your system  
+  03 What file has to be modified to make it permanent  
+  04 What command gives you the time since your system was last booted  
+  05 Name the command that determines the state of the SSH service  
+  06 Name the command that reboots the SSH service  
+  07 Figure out the PID of the SSHD service  
+  08 What file contains the RSA keys that are authorized to connect via SSH  
+  09 What command lets you know who is connected to the System  
+  10 Name the command that lists the partition tables of external devices  
+  11 Name the command that displays the available space left on the system  
+  12 Figure out the exact size of each folder of /var  
+  13 Name the command that find currently running processes  
+  14 Run the "tail -f /var/log/syslog" command in background  
+  15 Find the command that kills the background command’s process  
+  16 Find the service which makes it possible to run specific tasks following a regular schedule  
+  17 Find the command which gives the list of firewall rules  
+  18 With the previous command, authorize only IP addresses from 10.0.0.0/8 to connect to your system  
+  19 With the previous command, forbid all others IP  
+  XX Command which, in parallel with the graphical session, allows you to connect to the machine with SSH  
+  XX Command to stop the SSH service  
+  XX List the services that start automatically when the machine boots and give the name of this type of service  
+  XX List all existing users on the machine  
+  XX List all real users of the machine  
+  XX Command to add a new local user  
+  XX Explain how to log in as this new user (in graphical session and in ssh session)  
+  XX Command that lists all the packages INSTALLED on the machine  
 
 ### Scripts
-  01 Réaliser un script qui affiche seulement le login, le UID et le Path de chaques entrée du fichier /etc/passwd   
-  02 Réaliser un script qui met à jour l’ensemble des sources de package, puis de vos packages et qui log l’ensemble dans un fichier nommé /var/log/update_script.log  
-  Créer une tâche planifiée pour ce script une fois par semaine à 4h00 du matin  
-  03 Réaliser un script qui affiche la liste des fichiers triés par taille présents dans le dossier passé en argument  
-  04 Réaliser un script qui permet de surveiller les modifications du fichier /etc/crontab et envoie un mail à ROOT si celui-ci a été modifié  
-  Créez une tâche planifiée pour ce script tous les jours à minuit   
-  05 Réaliser un script qui affiche 42  
-  XX Réaliser un script qui permet de supprimer un user LOGUÉ sur la machine  
-  XX Jamais 203  
+  01 Write a script which displays only the login, UID and Path of each entry of the /etc/passwd file  
+  02 Write a script which updates all the package sources, then all the packages, and then logs everything in a file named /var/log/update_script.log  
+     Create a scheduled task for this script, once per week at 4 AM  
+  03 Write a script which displays the list of files from the folder given as parameter, sorted by size  
+  04 Write a script which monitors the modifications made to the /etc/crontab file and sends an e-mail to root if the file is modified  
+     Create a scheduled task to run this script everyday at midnight  
+  05 Write a script which displays 42  
+  XX Write a script that allows you to delete a LOGGED user on the machine  
+  XX Never two without three  
   XX Start a new 42 project  
 
 ### Annexes
