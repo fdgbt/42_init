@@ -15,66 +15,66 @@ It can be shared upon request.
 I would like to thanks a lot the 42 peers (and friends) who helped me to produce this document: Hugo D., Julia A. and Julien B.  
 Unfortunately only French is available for now, the content is organised as below:
 
-### Remerciements
-### Versions du document
-### Table des matières
+### Thanks
+### Versions of document
+### Summary
 
 ### Introduction
-  Vérifier le fonctionnement (status) d’un service  
-  Aide concernant la commande “service”  
-  Lister tous les services installés  
-  Activer un service  
-  Désactiver un service  
-  Réinitialiser un service (stop puis start)  
+  Check the operation (status) of a service  
+  Help with the “service” command  
+  List all installed services  
+  Enable a service  
+  Disable a service  
+  Reset a service (stop then restart)  
 
-### Gestionnaire de paquets
-  Installer un paquet [package]  
-  Supprimer un paquet  
-  Supprimer un paquet avec toutes ses dépendances logicielles  
-  Supprimer également les fichiers de config (purge)  
-  Supprimer tous les paquets d’installation   
-  Mettre à jour tous les paquets   
-  Mettre à jour un paquet en particulier  
+### Packages Manager
+  Install a package  
+  Delete a package  
+  Delete a package with all its dependencies  
+  Also delete all config files (purge)  
+  Delete all installer packages     
+  Update all packages   
+  Update a specific package  
 
-### Commandes Terminal utiles à l’admin. systèmes & réseaux
-  Les commandes basiques   
-  Les commandes systèmes   
-  Les commandes réseaux   
-  Les fichiers de configurations  
+### Terminal commands usefull to the sys-admin and networks
+  Basic commands  
+  System commands  
+  Network commands  
+  Configuration files  
 
-### Remarque
+### Comment
 
-### Rendre script exécutable
+### Make scripts executable
 
-### Installer une VM à 42 (Mac OS X)
-  Installer VirtualBox  
-  Installer une VM dans VirtualBox  
-  Installer Debian dans la VM  
-  A faire une fois Debian installé  
-  Stockage de la VM  
+### Install a VM at 42 (Mac OS X)
+  Install VirtualBox  
+  Install a VM in VirtualBox  
+  Install Debian in the VM  
+  What to do once Debian is installed  
+  VM storage  
   
 ### Network
-  01 Afficher juste les noms de la liste des interfaces réseaux  
-  02 Afficher les caractéristiques d’une interface réseau spécifique (ex: Ethernet)  
-  XX Afficher juste l’adresse IP de l’interface Ethernet  
-  XX Afficher l’adresse de Broadcast de l’interface Ethernet  
-  XX Afficher toutes les adresses IP qui font partie du même sous-réseau  
-  03 Afficher juste l’adresse MAC de la carte Wi-Fi  
-  04 Afficher la gateway par défaut dans la table de routage  
-  05 Afficher l’IP du serveur DNS qui répond sur le domaine suivant : slash16.org  
-  06 Récupérer le path complet du fichier dans lequel est écrit l’adresse IP du serveur DNS que l’on utilise  
-  07 Interroger un serveur DNS externe sur le nom de domaine slash16.org (ex : google 8.8.8.8)  
-  08 Trouver chez quel hébergeur est le site de Slash16   
-  09 Trouver l’IP Publique de 42.fr   
-  10 Afficher les différents appareils réseaux entre votre poste et le domaine slash16.org   
-  11 Trouvez grâce au résultat de la commande précédente le nom et l’IP du matériel qui fait le lien entre vous (réseau local) et l’extérieur  
-  12 Vérifiez que le serveur avec l’adresse IP 10.51.1.253 est touchable depuis votre poste   
-  XX Déterminer le type de serveur 10.51.1.253   
-  XX Trouvez l’IP qui vous a été assignée par le serveur dhcp   
-  13 Vérifiez grâce au Reverse DNS le nom du serveur correspondant à l’IP 10.51.1.81   
-  XX Grâce à la question précédente et au reverse DNS, retrouvez le nom de votre host   
-  14 Quel est le fichier contenant les entrées locales DNS   
-  15 Faites pointer intra.42.fr sur l’adresse suivante 46.19.122.85   
+  01 Get the list of the network interfaces of the machine without displaying any detail for these interfaces. Only the list of names.  
+  02 Identify the IP address of the Ethernet interface  
+  XX Display only the IP address of the Ethernet interface  
+  XX Display the Broadcast address of the Ethernet interface  
+  XX Display all the IP addresses that are part of the same subnet  
+  03 Identify the MAC address of the Wi-Fi card  
+  04 Identifiy the default gateway in the routing table  
+  05 Identify the IP address of the DNS that responds to the following url: slash16.org   
+  06 Get the complete path of the file that contains the IP address of the DNS server you’re using  
+  07 Query an external DNS server on the slash16.org domain name (ie. : google 8.8.8.8)  
+  08 Identify the host provider for the Slash16 website  
+  09 Identify the public IP address of 42.fr   
+  10 Identify the network devices between your computer and the slash16.org domain  
+  11 Use the output of the previous command to find the name and IP address of the device that makes the link between you (local network) and the outside world  
+  12 Check that the server with the 10.51.1.253 IP address is reachable from your computer  
+  XX Identify the server type for 10.51.1.253 IP address  
+  XX Identify the IP address assigned to you by the DHCP server  
+  13 Use the reverse DNS to find out the name of the server linked to the 10.51.1.81 IP address  
+  XX With the result of the previous question and the reverse DNS, find the name of your host  
+  14 What file contains the local DNS entries  
+  15 Make the 46.19.122.85 address reroute to intra.42.fr  
 
 ### System  
   01 Fichier où se trouve la version installée de Debian   
