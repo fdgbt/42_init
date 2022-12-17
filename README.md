@@ -7,7 +7,7 @@ They are sorted in 3 domains, following the subject: Network, System, Scripts.
 
 # Special Doc
 A unique document has been created for this project.  
-In this rare document you can find the subject with a reminder for all notions learned, but also explanations for each script.  
+In this rare document you can follow the subject with a reminder for all notions learned, but also explanations for each scripts and commands.  
 It has been designed to be very complete in terms of informations, and represents dozens of hours of research and writing.  
 It takes the form of a tutorial of 75 pages, allowing you to be guided step by step and to complete the project from A to Z.  
 It can be shared upon request.  
@@ -124,7 +124,7 @@ Unfortunately only French is available for now, the content is organised as belo
 # 2019 Update
 There is a new version of the subject and some adjustment has been made with the objectives (02 03 etc).  
 Objectives marqued as 'XX' are from new subject and also explained completely in the document.  
-The updated document, including old and new objectives, is available in French and can be shared upon request.
+The updated document, including old and new objectives, is available in French only and can be shared upon request.
 
 # Keywords
 System & Network Administration  
