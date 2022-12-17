@@ -36,7 +36,7 @@ Unfortunately only French is available for now, the content is organised as belo
   Update all packages   
   Update a specific package  
 
-### Terminal commands usefull to the sys-admin and networks
+### Terminal commands usefull to the sys-admin
   Basic commands  
   System commands  
   Network commands  
